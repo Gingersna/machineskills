@@ -1,0 +1,4 @@
+interface:
+  display_name: "模型迭代评估"
+  short_description: "对比新旧模型与人审标签，生成策略评估报告和替换建议"
+  default_prompt: "Use $model-iteration-evaluator to compare old and new model labels against human labels, then generate a strategy evaluation report."
